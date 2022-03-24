@@ -6,8 +6,8 @@
 var startTestPrefix = process.argv[2];
 
 var assert = require('assert');
-var fdb = require('../lib/fdb.js').apiVersion(parseInt(process.argv[3]));
-var fdbUtil = require('../lib/fdbUtil.js');
+var fdb = require('../../main/ts/fdb.js').apiVersion(parseInt(process.argv[3]));
+var fdbUtil = require('../../main/ts/fdbUtil.js');
 var testerUtil = require('./util.js');
 var DirectoryExtension = require('./streamline_directory_extension._js');
 

@@ -23,7 +23,7 @@
 "use strict";
 
 var promisesAplusTests = require('promises-aplus-tests');
-var future = require('../lib/future.js');
+var future = require('../../main/ts/future.js');
 
 var adapter = {
 	resolved: function(value) {

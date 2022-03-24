@@ -21,8 +21,8 @@
 "use strict";
 
 var util = require('util');
-var fdb = require('../lib/fdb.js').apiVersion(parseInt(process.argv[3]));
-var fdbUtil = require('../lib/fdbUtil.js');
+var fdb = require('../../main/ts/fdb.js').apiVersion(parseInt(process.argv[3]));
+var fdbUtil = require('../../main/ts/fdbUtil.js');
 var dirUtil = require('./directory_util.js');
 
 var logAll = false;

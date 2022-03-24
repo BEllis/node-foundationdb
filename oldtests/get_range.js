@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-var fdb = require('../lib/fdb').apiVersion(200);
+var fdb = require('../../main/ts/fdb').apiVersion(200);
 
 var db = fdb.open(null, null)
 

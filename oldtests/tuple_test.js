@@ -18,8 +18,8 @@
  * limitations under the License.
  */
 
-var fdb = require('../lib/fdb.js').apiVersion(510);
-var fdbModule = require('../lib/fdbModule.js');
+var fdb = require('../../main/ts/fdb.js').apiVersion(510);
+var fdbModule = require('../../main/ts/fdbModule.js');
 
 console.log(fdb.tuple.pack([-Math.pow(2,53)]));
 console.log(fdb.tuple.pack([-Math.pow(2,53)+1]));

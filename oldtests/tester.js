@@ -30,8 +30,8 @@ else
 	var clusterFile = '';
 
 var assert = require('assert');
-var fdb = require('../lib/fdb.js').apiVersion(parseInt(process.argv[3]));
-var fdbUtil = require('../lib/fdbUtil.js');
+var fdb = require('../../main/ts/fdb.js').apiVersion(parseInt(process.argv[3]));
+var fdbUtil = require('../../main/ts/fdbUtil.js');
 var testerUtil = require('./util.js');
 var DirectoryExtension = require('./directory_extension.js');
 //fdb.options.setTraceEnable()

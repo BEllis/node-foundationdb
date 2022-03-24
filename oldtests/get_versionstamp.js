@@ -31,7 +31,7 @@ var bufferEqual = function (a, b) {
     return true;
 };
 
-var fdb = require('../lib/fdb').apiVersion(410);
+var fdb = require('../../main/ts/fdb').apiVersion(410);
 
 var db = fdb.open(null, null)
 

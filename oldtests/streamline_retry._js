@@ -1,4 +1,4 @@
-var fdb = require('../lib/fdb').apiVersion(200);
+var fdb = require('../../main/ts/fdb').apiVersion(200);
 
 function set(db, key, value, _) {
 	db.doTransaction(function(tr, _) {

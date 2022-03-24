@@ -19,8 +19,8 @@
  */
 
 "use strict";
-var fdb = require('../lib/fdb.js').apiVersion(parseInt(process.argv[3]));
-var util = require('../lib/fdbUtil.js');
+var fdb = require('../../main/ts/fdb.js').apiVersion(parseInt(process.argv[3]));
+var util = require('../../main/ts/fdbUtil.js');
 
 var opsThatCreateDirs = [
     'DIRECTORY_CREATE_SUBSPACE',

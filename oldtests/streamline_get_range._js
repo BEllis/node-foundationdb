@@ -1,4 +1,4 @@
-var fdb = require('../lib/fdb').apiVersion(200);
+var fdb = require('../../main/ts/fdb').apiVersion(200);
 
 db = fdb.open(null, null, _);
 
